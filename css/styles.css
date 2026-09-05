@@ -115,3 +115,25 @@ body {
  .admin-only { display: none; } 
  .badge { display: inline; } 
  .event-card { display: block; } 
+
+ img { max-width: 100%; height: auto; } 
+ 
+ @media (max-width: 600px) { 
+   nav a { 
+  display: block; 
+  margin: 4px 0; 
+   } 
+   body { font-size: 15px; } 
+ } 
+
+
+ #eventCarousel {
+    height: 350px;
+    overflow: hidden;
+}
+
+#eventCarousel .carousel-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
